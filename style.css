@@ -1,0 +1,53 @@
+body{
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.main{
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.equi{
+    width: 250px;
+    border-radius: 15px;
+}
+.profile{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.avatar{
+    width: 32px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+.id{
+    font-size: 20px;
+}
+.description{
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    width: 300px;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.name{
+    color:  hsl(215, 51%, 70%);
+}
+.details{
+    font-size: 18px;
+}
